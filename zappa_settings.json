@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "app_function": "abpSpotBuyApi.app",
+        "aws_region": "ap-south-1",
+        "profile_name": "default",
+        "project_name": "abpspotbuyapi",
+        "runtime": "python3.6",
+        "s3_bucket": "sagacito-zappa",
+        "memory_size": 3008,
+        "num_retained_versions": 1
+    },
+        "uat": {
+        "app_function": "abpSpotBuyApi.app",
+        "aws_region": "ap-south-1",
+        "profile_name": "default",
+        "project_name": "abpspotbuyapi",
+        "runtime": "python3.6",
+        "s3_bucket": "sagacito-zappa",
+        "memory_size": 3008,
+        "num_retained_versions": 1
+    },
+        "prod": {
+        "app_function": "abpSpotBuyApi.app",
+        "aws_region": "ap-south-1",
+        "profile_name": "default",
+        "project_name": "abpspotbuyapi",
+        "runtime": "python3.6",
+        "s3_bucket": "sagacito-zappa",
+        "memory_size": 3008,
+        "num_retained_versions": 1
+    },
+    "sim": {
+    "app_function": "abpSpotBuyApi.app",
+    "aws_region": "ap-south-1",
+    "profile_name": "default",
+    "project_name": "abpspotbuyapi",
+    "runtime": "python3.6",
+    "s3_bucket": "sagacito-zappa",
+    "memory_size": 3008,
+    "num_retained_versions": 1
+}
+}
